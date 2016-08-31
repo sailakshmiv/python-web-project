@@ -70,4 +70,4 @@ def pick_insult():
     
     return endpoints[randint(0, 4)]
 
-run(host='localhost', port=8081)
+run(host='0.0.0.0', port=5000)
